@@ -1,0 +1,12 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pillow
+tqdm
+pyyaml
+opencv-python
+pytorch-grad-cam>=1.5.0

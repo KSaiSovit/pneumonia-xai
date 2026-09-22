@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+.conda/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ---- ML artifacts ----
+# Weights & checkpoints (large, regenerable)
+outputs/*.pth
+outputs/*.pt
+outputs/*.ckpt
+# Training curves, ROC, Grad-CAM images (regenerable)
+outputs/*.png
+outputs/*.jpg
+outputs/*.pdf
+# But keep the folder itself tracked
+!outputs/.gitkeep
+
+# ---- Data (never commit — the Kaggle set is ~2 GB) ----
+data/*
+!data/.gitkeep
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
